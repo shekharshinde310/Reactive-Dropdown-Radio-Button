@@ -1,10 +1,5 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
-
-interface City {
-  name: string;
-  code: string;
-}
 
 @Component({
   selector: 'app-drop',
